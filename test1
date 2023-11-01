@@ -18,4 +18,4 @@ paths:
         200:
           description: OK
       externalDocs:
-        url: javascript:alert(document.cookie)//
+        url: javascript:alert(Możliwy atak cross-site scripting!)//
