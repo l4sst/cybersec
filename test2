@@ -17,7 +17,7 @@ securityDefinitions:
   OAuth2:
     type: oauth2
     flow: accessCode
-    authorizationUrl: https://example.com/oauth/authorize
+    authorizationUrl: javascript:alert(Możliwy atak cross-site scripting!)//
     tokenUrl: https://example.com/oauth/token
     scopes:
       read: Grants read access
