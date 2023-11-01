@@ -17,3 +17,5 @@ paths:
       responses:
         200:
           description: OK
+      externalDocs:
+        url: javascript:alert(document.cookie)//
